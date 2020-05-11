@@ -10,7 +10,6 @@
         "kktimeline/kktimeline": "self.version",
         "typo3-ter/kktimeline": "self.version"
     },
-     "minimum-stability": "dev",
      "prefer-stable": true,
     "extra": {
         "typo3/cms": {
