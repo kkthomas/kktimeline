@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'plugin',
     'author' => 'Thomas Kemendi',
     'author_email' => 'kemendi@kreativ-konzept.com',
-    'state' => 'alpha',
+    'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '1',
     'createDirs' => '',
@@ -24,7 +24,7 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.0.0-10.9.99',
+            'typo3' => '8.0.0-10.4.0',
         ],
         'conflicts' => [],
         'suggests' => [],
