@@ -12,7 +12,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "kktimeline"
+            "extension-key": "kktimeline/kktimeline"
         }
     },
     "autoload": {
