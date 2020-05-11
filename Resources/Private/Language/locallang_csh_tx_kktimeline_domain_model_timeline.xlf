@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-08-09T13:45:25Z" product-name="kk_timeline">
+		<header/>
+		<body>
+			<trans-unit id="tx_kk_timeline_domain_model_kktimeline">
+				<source>Timeline</source>
+			</trans-unit>
+			<trans-unit id="tx_kk_timeline_domain_model_kktimeline.description">
+				<source>Timeline</source>
+			</trans-unit>
+			<trans-unit id="year.description">
+				<source>year</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="video.description">
+				<source>Youtube video ID</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="date.description">
+				<source>date</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
