@@ -1,0 +1,39 @@
+{
+    "name": "kktimeline/kktimeline",
+    "type": "typo3-cms-extension",
+    "description": "FLUID Templates & TypoScript",
+    "homepage": "https://kreativ-konzept.com",
+    "keywords": [
+        "TYPO3",
+        "CMS",
+        "extension"
+    ],
+    "authors": [
+        {
+            "name": "Thomas Kemendi",
+            "email": "kemendi@kreativ-konzept.com",
+            "role": "Developer",
+            "homepage": "https://kreativ-konzept.com"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kktimeline\\KkTimeline\\": "Classes/"
+        }
+    },
+    "replace": {
+        "kktimeline": "self.version",
+        "typo3-ter/kktimeline": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "kk_timeline"
+        }
+    }
+}
