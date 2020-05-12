@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kktimeline\\KkTimeline\\": "Classes/"
+            "Kktimeline\\KkTimeline\\": "pubic/typo3conf/ext/kktimeline/Classes/"
         }
     }
 }
