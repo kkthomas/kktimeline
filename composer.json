@@ -12,7 +12,9 @@
     },
      "minimum-stability": "dev",
      "prefer-stable": true,
-    "extra": {
+     "version": "1.0.0.2",
+     "extra": {
+
         "typo3/cms": {
             "extension-key": "kktimeline"
         }
