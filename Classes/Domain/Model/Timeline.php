@@ -1,5 +1,5 @@
 <?php
-namespace Kktimeline\KkTimeline\Domain\Model;
+namespace Kktimeline\Kktimeline\Domain\Model;
 
 /***
  *

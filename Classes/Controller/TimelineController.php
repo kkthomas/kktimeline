@@ -1,5 +1,5 @@
 <?php
-namespace Kktimeline\KkTimeline\Controller;
+namespace Kktimeline\Kktimeline\Controller;
 
 /***
  *
@@ -20,7 +20,7 @@ class TimelineController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
     /**
      * timelineRepository
      *
-     * @var \Kktimeline\KkTimeline\Domain\Repository\TimelineRepository
+     * @var \Kktimeline\Kktimeline\Domain\Repository\TimelineRepository
      * @inject
      */
     protected $timelineRepository = null;
@@ -39,10 +39,10 @@ class TimelineController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
     /**
      * action show
      *
-     * @param \Kktimeline\KkTimeline\Domain\Model\Timeline $timeline
+     * @param \Kktimeline\Kktimeline\Domain\Model\Timeline $timeline
      * @return void
      */
-    public function showAction(\Kktimeline\KkTimeline\Domain\Model\Timeline $timeline)
+    public function showAction(\Kktimeline\Kktimeline\Domain\Model\Timeline $timeline)
     {
         $this->view->assign('timeline', $timeline);
     }

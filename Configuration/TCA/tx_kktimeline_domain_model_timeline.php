@@ -1,7 +1,7 @@
 <?php
 return [
     'ctrl' => [
-        'title'	=> 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline',
+        'title'	=> 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline',
         'label' => 'title',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
@@ -17,7 +17,7 @@ return [
             'endtime' => 'endtime',
         ],
 		'searchFields' => 'year,image,video,title,date,description',
-        'iconfile' => 'EXT:kk_timeline/Resources/Public/Icons/tx_kktimeline_domain_model_timeline.gif'
+        'iconfile' => 'EXT:kktimeline/Resources/Public/Icons/tx_kktimeline_domain_model_timeline.gif'
     ],
     'interface' => [
 		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, year, image, video, title, date, description',
@@ -109,7 +109,7 @@ return [
         ],
         'year' => [
 	        'exclude' => true,
-	        'label' => 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.year',
+	        'label' => 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.year',
 	        'config' => [
 			    'type' => 'input',
 			    'size' => 4,
@@ -118,7 +118,7 @@ return [
 	    ],
 	    'image' => [
 	        'exclude' => true,
-	        'label' => 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.image',
+	        'label' => 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.image',
 	        'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
 			    'image',
 			    [
@@ -164,7 +164,7 @@ return [
 	    ],
 	    'video' => [
 	        'exclude' => true,
-	        'label' => 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.video',
+	        'label' => 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.video',
 	        'config' => [
 			    'type' => 'input',
 			    'size' => 30,
@@ -173,7 +173,7 @@ return [
 	    ],
 	    'title' => [
 	        'exclude' => true,
-	        'label' => 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.title',
+	        'label' => 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.title',
 	        'config' => [
 			    'type' => 'input',
 			    'size' => 30,
@@ -182,7 +182,7 @@ return [
 	    ],
 	    'date' => [
 	        'exclude' => true,
-	        'label' => 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.date',
+	        'label' => 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.date',
 	        'config' => [
 			    'dbType' => 'date',
 			    'type' => 'input',
@@ -193,7 +193,7 @@ return [
 	    ],
 	    'description' => [
 	        'exclude' => true,
-	        'label' => 'LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.description',
+	        'label' => 'LLL:EXT:kktimeline/Resources/Private/Language/locallang_db.xlf:tx_kktimeline_domain_model_timeline.description',
 	        'config' => array(
 				'type' => 'text',
 				'cols' => 40,
