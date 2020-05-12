@@ -23,7 +23,7 @@ call_user_func(
 			wizards.newContentElement.wizardItems.plugins {
 				elements {
 					kktimeline {
-						icon = '. \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath("kk_timeline") . 'Resources/Public/Icons/user_plugin_kktimeline.svg
+						icon = '. \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($extKey) . 'Resources/Public/Icons/user_plugin_kktimeline.svg
 						title = LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kk_timeline_domain_model_kktimeline
 						description = LLL:EXT:kk_timeline/Resources/Private/Language/locallang_db.xlf:tx_kk_timeline_domain_model_kktimeline.description
 						tt_content_defValues {
