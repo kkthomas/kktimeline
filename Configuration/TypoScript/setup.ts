@@ -1,11 +1,11 @@
 
 plugin.tx_kktimeline_kktimeline {
   view {
-    templateRootPaths.0 = EXT:kk_timeline/Resources/Private/Templates/
+    templateRootPaths.0 = EXT:kktimeline/Resources/Private/Templates/
     templateRootPaths.1 = plugin.tx_kktimeline_kktimeline.view.templateRootPath
-    partialRootPaths.0 = EXT:kk_timeline/Resources/Private/Partials/
+    partialRootPaths.0 = EXT:kktimeline/Resources/Private/Partials/
     partialRootPaths.1 = plugin.tx_kktimeline_kktimeline.view.partialRootPath
-    layoutRootPaths.0 = EXT:kk_timeline/Resources/Private/Layouts/
+    layoutRootPaths.0 = EXT:kktimeline/Resources/Private/Layouts/
     layoutRootPaths.1 = plugin.tx_kktimeline_kktimeline.view.layoutRootPath
   }
   persistence {
@@ -53,7 +53,7 @@ plugin.tx_kktimeline._CSS_DEFAULT_STYLE (
     }
 )
 
-page.includeJSFooterlibs.kktimeline = EXT:kk_timeline/Resources/Public/js/frst-timeline.min.js
-page.includeCSSLibs.kktimline = EXT:kk_timeline/Resources/Public/css/frst-timeline-style-8.css
-page.includeCSSLibs.kktimline2 = EXT:kk_timeline/Resources/Public/css/animate.css
-page.includeCSSLibs.kktimline3 = EXT:kk_timeline/Resources/Public/css/default.min.css
+page.includeJSFooterlibs.kktimeline = EXT:kktimeline/Resources/Public/js/frst-timeline.min.js
+page.includeCSSLibs.kktimline = EXT:kktimeline/Resources/Public/css/frst-timeline-style-8.css
+page.includeCSSLibs.kktimline2 = EXT:kktimeline/Resources/Public/css/animate.css
+page.includeCSSLibs.kktimline3 = EXT:kktimeline/Resources/Public/css/default.min.css
